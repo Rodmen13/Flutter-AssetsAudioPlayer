@@ -621,7 +621,6 @@ public class Player : NSObject, AVAudioPlayerDelegate {
                     
                     result(nil)
                 case .failed:
-                    var error = item.error
                     debugPrint("playback failed")
                     
                     self?.stop()
